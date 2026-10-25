@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoryName - WebFiction</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="story.css">
+</head>
+<body>
+    <div class="app">
+        <header class="topbar">
+            <div class="brand">WebFiction</div>
+            <label class="search" aria-label="Vyhľadávanie">
+                <span aria-hidden="true">⌕</span>
+                <input type="search" placeholder="Hľadať príbehy, autorov, tagy..." />
+            </label>
+            <div class="user-area">
+                <span class="user-name">Meno používateľa</span>
+                <span class="user-pfp" aria-label="Profil používateľa">M</span>
+            </div>
+        </header>
+
+        <div class="layout">
+            <aside class="sidebar">
+                <nav class="nav" aria-label="Hlavná navigácia">
+                    <a href="#home"><span class="nav-icon">⌂</span>Home Page</a>
+                    <a class="active" href="#stories"><span class="nav-icon">▤</span>Stories</a>
+                    <a href="#favourite"><span class="nav-icon">♡</span>Favourite</a>
+                    <a href="#create"><span class="nav-icon">+</span>Create a Story</a>
+                    <a href="#settings"><span class="nav-icon">⚙</span>Settings</a>
+                </nav>
+            </aside>
+
+            <main class="main-content story-page">
+                <article class="story-detail">
+                    <header class="story-header">
+                    <div class="story-title">
+                        <h1>StoryName</h1>
+                        <div class="story-author">
+                            <span class="user-pfp" aria-label="Profil používateľa">M</span>
+                            <span>
+                                <strong>AuthorName</strong>
+                                <small>Published 25, October 2026</small>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="story-actions">
+                        <button class="action-button" type="button"><span>♡</span> Like <b>56</b></button>
+                        <button class="action-button" type="button"><span>▱</span> Add to Favourites</button>
+                    </div>
+                    </header>
+                    <div class="tags" aria-label="Story tags">
+                        <a href="#">romance</a>
+                        <a href="#">drama</a>
+                        <a href="#">short story</a>
+                        <a href="#">original</a>
+                    </div>
+                    <img class="story-cover" role="img" src="picture.png" aria-label="Decorative story cover"/>
+                    <div class="story-body">
+                        <p>Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text </p>
+                        <p>Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text </p>
+                        <p>Story text Story text Story text Story text Story text </p>
+                        <p>Story text Story text Story text Story text Story text </p>
+                    </div>
+                    </section>
+                    <section class="comments-section">
+                    <div class="comments-heading">
+                        <h2>
+                            <span aria-hidden="true">▢</span> Comments 
+                            <span class="comment-info">(12)</span>
+                        </h2>
+                        <label class="comment-info">Sort by <select aria-label="Sort comments"><option>Newest</option><option>Oldest</option><option>Most liked</option></select></label></div>
+                    <article class="comment">
+                        <div class="comment-pfp">UN</div>
+                        <div class="comment-content">
+                            <div class="comment-top">
+                                <strong>Username</strong>
+                                <time datetime="2025-10-12T14:32">25, Oct 2026 · 14:32</time>
+                            </div>
+                            <p>Comment text Comment text Comment text Comment text </p>
+                            <div class="comment-controls">
+                                <button type="button">♡ 5</button>
+                                <button type="button">Reply</button>
+                                <button type="button" aria-label="More options">⋮</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="comment">
+                        <div class="comment-pfp">UN</div>
+                        <div class="comment-content">
+                            <div class="comment-top">
+                                <strong>AuthorName<span class="author-badge">AUTHOR</span></strong>
+                                <time datetime="2025-10-12T14:32">25, Oct 2026 · 14:32</time>
+                            </div>
+                            <p>Comment text Comment </p>
+                            <div class="comment-controls">
+                                <button type="button">♡ 15</button>
+                                <button type="button">Reply</button>
+                                <button type="button" aria-label="More options">⋮</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="comment">
+                        <div class="comment-pfp">UN</div>
+                        <div class="comment-content">
+                            <div class="comment-top">
+                                <strong>Username</strong>
+                                <time datetime="2025-10-12T14:32">25, Oct 2026 · 14:32</time>
+                            </div>
+                            <p>Comment text Comment text Comment text </p>
+                            <div class="comment-controls">
+                                <button type="button">♡ 10</button>
+                                <button type="button">Reply</button>
+                                <button type="button" aria-label="More options">⋮</button>
+                            </div>
+                        </div>
+                    </article>
+                    <form class="comment-form" action="#">
+                        <span class="comment-pfp current-user">M</span>
+                        <textarea id="new-comment" rows="2" placeholder="Write your comment..."></textarea>
+                        <button type="submit" class="send-button" aria-label="Send comment">➤</button>
+                    </form>
+                    </section>
+                </article>
+            </main>
+        </div>
+        <footer class="page-footer">
+            <span>© 2025 WebFiction</span>
+            <div>
+                <a href="#">About</a> 
+                <a href="#">Community guidelines</a>
+                <a href="#">Privacy</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

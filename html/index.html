@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page - WebFiction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">WebFiction</div>
+      <label class="search" aria-label="Vyhľadávanie">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" placeholder="Hľadať príbehy, autorov, tagy..." />
+      </label>
+      <div class="user-area">
+        <span class="user-name">Meno používateľa</span>
+        <span class="user-pfp" aria-label="Profil používateľa">M</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <nav class="nav" aria-label="Hlavná navigácia">
+          <a class="active" href="#home"><span class="nav-icon">⌂</span>Home Page</a>
+          <a href="#stories"><span class="nav-icon">▤</span>Stories</a>
+          <a href="#favourite"><span class="nav-icon">♡</span>Favourite</a>
+          <a href="#create"><span class="nav-icon">+</span>Create a Story</a>
+          <a href="#settings"><span class="nav-icon">⚙</span>Settings</a>
+        </nav>
+      </aside>
+
+      <main id="home">
+        <section class="section" aria-labelledby="followed-heading">
+          <div class="section-heading">
+            <h1 id="followed-heading">New by authors you follow</h1>
+            <a class="view-all" href="#stories">Zobraziť všetko →</a>
+          </div>
+          <div class="story-grid">
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="recommended-heading">
+          <div class="section-heading">
+            <h2 id="recommended-heading">Stories you might like</h2>
+            <a class="view-all" href="#stories">Zobraziť všetko →</a>
+          </div>
+          <div class="story-grid">
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+            <article class="story-card"><div class="cover">Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text</div><p class="story-title">StoryName</p><p class="story-author">Author</p></article>
+          </div>
+        </section>
+      </main>
+    </div>
+    
+    <footer class="page-footer">
+        <span>© 2025 WebFiction</span>
+        <div>
+            <a href="#">About</a> 
+            <a href="#">Community guidelines</a>
+            <a href="#">Privacy</a>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
